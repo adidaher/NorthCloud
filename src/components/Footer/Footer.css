@@ -1,0 +1,38 @@
+.footer-container {
+  width: 90%;
+  display: flex;
+  margin-top: 9%;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-icons {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.footer-logo img {
+  width: 150px;
+}
+
+.line-2 {
+  border-top: 1px solid black;
+  margin: 1.5% 0;
+}
+
+.copyrights {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+a {
+  margin-left: 18px;
+  text-decoration: underline;
+}

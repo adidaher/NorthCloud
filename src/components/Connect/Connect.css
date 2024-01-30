@@ -1,0 +1,41 @@
+.connect-container {
+  width: 90%;
+  display: flex;
+  align-items: start;
+
+  margin: 8% 0;
+}
+
+.connect-left {
+  flex: 1;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.connect-left span {
+  width: 50%;
+  text-align: start;
+}
+
+.connect-right {
+  flex: 1;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.connect-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3% 0;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.offileMap {
+  width: 90%;
+  height: 380px;
+}

@@ -1,0 +1,51 @@
+.Header-containter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10%;
+  width: 90%;
+  top: 0;
+  position: fixed;
+  background-color: white;
+}
+
+.header-logo {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.header-logo img {
+  width: 120px;
+}
+
+.header-content {
+  width: 100%;
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+
+.header-content li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.header-btn {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  cursor: pointer;
+}

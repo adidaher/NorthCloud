@@ -1,0 +1,25 @@
+.Logos-container {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.Logos-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  justify-content: space-evenly;
+}
+.logos-company {
+  flex: 1;
+  display: flex;
+  background-color: #eeeeee;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 55px;
+  margin: 0 10px;
+}
+.logos-company img {
+  width: 30px;
+  margin-right: 10px;
+}

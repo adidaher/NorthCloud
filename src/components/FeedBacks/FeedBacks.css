@@ -1,0 +1,38 @@
+.FeedBacks-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.FeedBacks-container img {
+  width: 100px;
+}
+
+.feedback-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.feedback-text h4 {
+  margin: 10px 0;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile img {
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 2px;
+}
+
+.profile span {
+  margin: 0 2px;
+}
