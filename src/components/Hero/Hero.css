@@ -3,15 +3,15 @@
   flex-direction: column;
   align-items: flex-start;
   width: 90%;
-  margin-top: 8%;
+  margin-top: 12%;
 }
 
 .hero-txt {
   width: 40%;
   text-align: start;
-  font-size: 39px;
+  font-size: 42px;
   font-weight: bold;
-  line-height: 2.5rem;
+  line-height: 2.8rem;
 }
 
 .Hero-container span {
@@ -32,5 +32,30 @@
 }
 
 .hero-image img {
-  width: 70%;
+  width: 60%;
+}
+
+@media only screen and (max-width: 480px) {
+  .Hero-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 42%;
+    width: 90%;
+  }
+
+  .hero-txt {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+    margin-top: 6%;
+  }
+  .hero-image img {
+    width: 80%;
+    margin-top: 8%;
+  }
 }

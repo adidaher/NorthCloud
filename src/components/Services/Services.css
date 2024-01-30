@@ -25,3 +25,25 @@
 .service-text {
   font-size: 0.8rem;
 }
+
+@media only screen and (max-width: 480px) {
+  .services-container {
+    flex-direction: column-reverse;
+    width: 90%;
+    margin-top: 42%;
+  }
+
+  .services-left img {
+    width: 80%;
+    margin-top: 20%;
+  }
+  .services-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .service-details {
+    text-align: center;
+    width: 100%;
+  }
+}

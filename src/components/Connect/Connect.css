@@ -39,3 +39,18 @@ i {
   width: 90%;
   height: 380px;
 }
+
+@media only screen and (max-width: 480px) {
+  .connect-container {
+    flex-direction: column;
+    margin-top: 42%;
+    align-items: center;
+  }
+  .connect-left {
+    align-items: center;
+    justify-content: center;
+  }
+  .connect-right {
+    align-items: center;
+  }
+}

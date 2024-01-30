@@ -23,3 +23,16 @@
   width: 30px;
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 480px) {
+  .Logos-container {
+    margin-top: 42%;
+  }
+  .Logos-row {
+    flex-direction: column;
+  }
+
+  .logos-company {
+    margin-top: 1.2%;
+  }
+}

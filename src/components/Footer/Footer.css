@@ -36,3 +36,12 @@ a {
   margin-left: 18px;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 480px) {
+  .footer-container {
+    margin-top: 42%;
+  }
+  .copyrights a {
+    font-size: 0.6rem;
+  }
+}

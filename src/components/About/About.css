@@ -32,3 +32,18 @@
 .About-left {
   flex: 1;
 }
+
+@media only screen and (max-width: 480px) {
+  .about-container {
+    flex-direction: column;
+    margin-top: 42%;
+  }
+
+  .about-text {
+    font-size: 1.5rem;
+  }
+
+  .About-left img {
+    width: 80%;
+  }
+}
