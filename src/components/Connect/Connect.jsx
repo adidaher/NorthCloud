@@ -1,10 +1,11 @@
 import React from "react";
 import "./Connect.css";
 import map from "../../assests/map.png";
+import haifa from "../../assests/Haifa.jpg";
 const Connect = () => {
   return (
     <>
-      <div className="connect-container">
+      <div className="connect-container" id="Connect">
         <div className="connect-left">
           <h1>Get in Touch</h1>
           <span>
@@ -35,7 +36,7 @@ const Connect = () => {
           </div>
         </div>
       </div>
-      <img src={map} alt="" className="offileMap" />
+      <img src={haifa} alt="" className="offileMap" />
     </>
   );
 };

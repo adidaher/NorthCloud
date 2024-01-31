@@ -4,7 +4,7 @@ import cube from "../../assests/cube.png";
 import agile from "../../assests/agile.png";
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="About">
       <div className="About-right">
         <div className="about-icon">
           <img src={cube} alt="" />

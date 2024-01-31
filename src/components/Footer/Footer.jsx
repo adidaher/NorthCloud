@@ -20,7 +20,7 @@ const Footer = () => {
       <div class="line-2"></div>
 
       <div className="copyrights">
-        <a>© 2023 NorthCloud. All rights reserved.</a>
+        <a>© 2024 NorthCloud. All rights reserved.</a>
         <a>Privacy Policy</a>
         <a>Terms and Conditions</a>
         <a>Cookie Policy</a>

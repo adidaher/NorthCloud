@@ -11,16 +11,16 @@ const Header = () => {
       <div className="header-content">
         <ul>
           <li>
-            <a>About Us</a>
+            <a href="#About">About Us</a>
           </li>
           <li>
-            <a> Services</a>
+            <a href="#Services"> Services</a>
           </li>
           <li>
             <a>Protofolio</a>
           </li>
           <li>
-            <a>More</a>
+            <a href="#Connect">More</a>
           </li>
         </ul>
       </div>

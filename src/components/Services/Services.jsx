@@ -1,11 +1,47 @@
 import React from "react";
 import "./Services.css";
 import servie from "../../assests/services.png";
+import trippy from "../../assests/webTrippy.jpeg";
+import gym from "../../assests/gym.png";
+import scene from "../../assests/Scene.png";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const Services = () => {
+  const Images = [scene, gym, trippy];
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 350,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1800,
+    responsive: [
+      {
+        breakpoint: 768, // Adjust the breakpoint based on your design
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
-    <div className="services-container">
+    <div className="services-container" id="Services">
       <div className="services-left">
-        <img src={servie} alt="" />
+        <Slider {...settings}>
+          {Images.map((item, index) => (
+            <img
+              key={index}
+              src={item}
+              className="sliderImage"
+              alt={`Slide ${index}`}
+            />
+          ))}
+        </Slider>
       </div>
       <div className="services-right">
         <div className="service-details">

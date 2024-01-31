@@ -5,7 +5,7 @@ import profile from "../../assests/profile.png";
 
 const FeedBacks = () => {
   return (
-    <div className="FeedBacks-container">
+    <div className="FeedBacks-container" id="feedback">
       <img src={stars} />
       <div className="feedback-text">
         <h4>
