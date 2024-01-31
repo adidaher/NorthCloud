@@ -50,3 +50,96 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+
+.header-menu {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  margin: auto auto;
+  padding: 0;
+}
+
+.header-menu a {
+  height: 2rem;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.4s;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header-menu a:hover {
+  scale: 1.2;
+  cursor: pointer;
+  color: var(--blue);
+}
+
+.show {
+  display: flex;
+}
+
+.header-menu {
+  display: none;
+}
+.fa-bars {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .header-content {
+    display: none;
+  }
+
+  .header-btn {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
+  .Header-containter {
+    justify-content: center;
+  }
+  .show {
+    display: flex;
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.9) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    );
+
+    flex-direction: column;
+
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+  }
+
+  .header-menu li {
+    margin: 5px 0;
+  }
+  .show :nth-last-child(1) {
+    padding-bottom: 20px;
+  }
+
+  .show {
+    animation: fadeSlideDown 0.3s ease-in-out forwards;
+  }
+}
+
+@keyframes fadeSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
