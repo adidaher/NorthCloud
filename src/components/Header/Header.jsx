@@ -32,7 +32,9 @@ const Header = () => {
       </div>
 
       <div className="header-btn">
-        <button className="primary-btn">Contact</button>
+        <a href="#Connect">
+          <button className="primary-btn">Contact</button>
+        </a>
       </div>
       <i className="fa-solid fa-bars" onClick={toggleMenu}></i>
 
