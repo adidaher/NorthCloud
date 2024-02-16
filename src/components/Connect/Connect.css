@@ -24,17 +24,41 @@
   align-items: start;
   flex-direction: column;
 }
-.connect-item {
+.connect-right form {
+  width: 90%;
+}
+.form-group {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: start;
+  padding: 8px;
+}
+.form-control {
+  min-height: 20px;
+  margin-top: 2px;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.connect-item {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  align-items: center;
   margin: 3% 0;
+  text-decoration: none;
 }
-
+.gray-text {
+  color: gray;
+  font-size: 0.8rem;
+}
 i {
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
+.contact-txt {
+  text-decoration-line: none;
+}
 .offileMap {
   width: 90%;
   height: 380px;
@@ -50,12 +74,13 @@ i {
   .connect-left {
     align-items: center;
     justify-content: center;
+    width: 80%;
   }
   .connect-right {
     text-align: center;
     align-items: start;
     justify-content: center;
-    width: 60%;
+    width: 80%;
     margin-top: 5%;
   }
 }
