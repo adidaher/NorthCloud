@@ -18,21 +18,21 @@ const Connect = () => {
             <span>
               <i class="fa-solid fa-envelope"></i>Email
             </span>
-            <a>hello@northcloud.io</a>
+            <a>northcloudbb@gmail.com</a>
           </div>
 
           <div className="connect-item">
             <span>
               <i class="fa-solid fa-phone"></i> Phome
             </span>
-            <a>+1 (555) 123-4567</a>
+            <a>+972546683995</a>
           </div>
 
           <div className="connect-item">
             <span>
               <i class="fa-solid fa-location-dot"></i> Office
             </span>
-            <a>123 Main St, Sydney NSW 2000, Australia</a>
+            <a>Haifa, Main St,Israel</a>
           </div>
         </div>
       </div>
