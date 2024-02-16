@@ -26,7 +26,10 @@ const Connect = () => {
         },
         (error) => {
           console.log("FAILED...", error.text);
-        }
+        },
+        setName(""),
+        setPhone(""),
+        setMessage("")
       );
   };
 
