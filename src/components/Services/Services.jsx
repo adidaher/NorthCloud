@@ -2,6 +2,7 @@ import React from "react";
 import "./Services.css";
 import servie from "../../assests/services.png";
 import trippy from "../../assests/webTrippy.jpeg";
+import emad from "../../assests/emad.png";
 import gym from "../../assests/gym.png";
 import scene from "../../assests/Scene.png";
 import Slider from "react-slick";
@@ -9,7 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Services = () => {
-  const Images = [scene, gym, trippy];
+  const Images = [scene, gym, trippy, emad];
   const settings = {
     dots: true,
     infinite: true,
