@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useEffect } from "react";
 import "./Home.css";
 import { Hero } from "../../components/Hero/Hero";
 import Header from "../../components/Header/Header";
@@ -17,6 +17,29 @@ const Connect = lazy(() => import("../../components/Connect/Connect"));
 const Footer = lazy(() => import("../../components/Footer/Footer"));
 
 const Home = () => {
+  let sections = document.querySelectorAll("section");
+  useEffect(() => {
+    // Function to handle scroll animation
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section");
+      sections.forEach((sec) => {
+        const rect = sec.getBoundingClientRect();
+        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+          sec.classList.add("show-animate");
+        } else {
+          sec.classList.remove("show-animate");
+        }
+      });
+    };
+
+    // Attach scroll event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="Home-container">
       <Header />

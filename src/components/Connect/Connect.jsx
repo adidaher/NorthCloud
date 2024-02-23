@@ -42,17 +42,17 @@ const Connect = () => {
             Have any questions or need assistance? We're here to help!
           </span>
           <div className="connect-item">
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
             <a className="contact-txt">northcloudbb@gmail.com</a>
           </div>
 
           <div className="connect-item">
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-solid fa-phone"></i>
             <a className="contact-txt">+972546683995</a>
           </div>
 
           <div className="connect-item">
-            <i class="fa-solid fa-location-dot"></i>
+            <i className="fa-solid fa-location-dot"></i>
             <a className="contact-txt">Haifa, Main St, Israel</a>
           </div>
         </div>

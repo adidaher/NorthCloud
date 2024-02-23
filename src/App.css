@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.show-animate {
+  animation: slideInLeft ease-in 1s;
+}

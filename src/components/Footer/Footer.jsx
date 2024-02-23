@@ -10,14 +10,14 @@ const Footer = () => {
           <img src={Logo} />
         </div>
         <div className="footer-icons">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-whatsapp"></i>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-whatsapp"></i>
         </div>
       </div>
 
-      <div class="line-2"></div>
+      <div className="line-2"></div>
 
       <div className="copyrights">
         <a>© 2024 NorthCloud. All rights reserved.</a>

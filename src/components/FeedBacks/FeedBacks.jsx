@@ -5,7 +5,7 @@ import profile from "../../assests/profile.png";
 
 const FeedBacks = () => {
   return (
-    <div className="FeedBacks-container" id="feedback">
+    <section className="FeedBacks-container" id="feedback">
       <img src={stars} />
       <div className="feedback-text">
         <h4>
@@ -18,7 +18,7 @@ const FeedBacks = () => {
         <span> | </span>
         <span> John Doe</span>
       </div>
-    </div>
+    </section>
   );
 };
 

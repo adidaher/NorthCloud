@@ -31,7 +31,7 @@ const Services = () => {
   };
 
   return (
-    <div className="services-container" id="Services">
+    <section className="services-container" id="Services">
       <div className="services-left">
         <Slider {...settings}>
           {Images.map((item, index) => (
@@ -73,7 +73,7 @@ const Services = () => {
           </span>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

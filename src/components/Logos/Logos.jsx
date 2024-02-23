@@ -9,7 +9,7 @@ import github from "../../assests/github.png";
 import "./Logos.css";
 const Logos = () => {
   return (
-    <div className="Logos-container">
+    <section className="Logos-container">
       <h5>Trusted by top global companies for exceptional results</h5>
       <div className="Logos-row">
         <div className="logos-company">
@@ -39,7 +39,7 @@ const Logos = () => {
           <span>Github</span>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
