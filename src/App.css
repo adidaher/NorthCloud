@@ -28,15 +28,6 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 @keyframes slideInLeft {
   from {
     transform: translateX(-100%);
@@ -48,5 +39,10 @@
 }
 
 .show-animate {
-  animation: slideInLeft ease-in 1s;
+  animation: slideInLeft ease-in-out 1.5s;
+  opacity: 1;
+}
+
+section {
+  opacity: 0;
 }

@@ -17,14 +17,16 @@ const Connect = lazy(() => import("../../components/Connect/Connect"));
 const Footer = lazy(() => import("../../components/Footer/Footer"));
 
 const Home = () => {
-  let sections = document.querySelectorAll("section");
   useEffect(() => {
     // Function to handle scroll animation
     const handleScroll = () => {
       const sections = document.querySelectorAll("section");
+
       sections.forEach((sec) => {
         const rect = sec.getBoundingClientRect();
-        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+
+        //if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        if (rect.top < window.innerHeight - 150) {
           sec.classList.add("show-animate");
         } else {
           sec.classList.remove("show-animate");

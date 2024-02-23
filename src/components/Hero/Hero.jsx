@@ -3,7 +3,7 @@ import "./Hero.css";
 import blog from "../../assests/Blog.png";
 export const Hero = () => {
   return (
-    <section className="Hero-container " id="Hero">
+    <div className="Hero-container " id="Hero">
       <div className="hero-txt">
         Transform Your Business with NorthCloud's Cutting-Edge Websites and
         Applications
@@ -19,6 +19,6 @@ export const Hero = () => {
       <div className="hero-image slideInLeft">
         <img src={blog} alt="" />
       </div>
-    </section>
+    </div>
   );
 };
