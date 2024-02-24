@@ -1,16 +1,17 @@
 import React from "react";
 import "./Services.css";
-import servie from "../../assests/services.png";
-import trippy from "../../assests/webTrippy.jpeg";
-import emad from "../../assests/emad.png";
-import gym from "../../assests/gym.png";
-import scene from "../../assests/Scene.png";
+
+import audio from "../../assests/audio.png";
+import trippy from "../../assests/trippy.png";
+import adicommerce from "../../assests/adicommerce.png";
+import moradgym from "../../assests/moradgym.png";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Services = () => {
-  const Images = [scene, gym, trippy, emad];
+  const Images = [audio, adicommerce, trippy, moradgym];
   const settings = {
     dots: true,
     infinite: true,
@@ -18,7 +19,7 @@ const Services = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1800,
+    autoplaySpeed: 1600,
     responsive: [
       {
         breakpoint: 768, // Adjust the breakpoint based on your design
