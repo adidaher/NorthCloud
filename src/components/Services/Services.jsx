@@ -4,13 +4,14 @@ import "./Services.css";
 import audio from "../../assests/audio.png";
 import trippy from "../../assests/trippy.png";
 import adicommerce from "../../assests/adicommerce.png";
+import gym from "../../assests/gym.png";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Services = () => {
-  const Images = [audio, adicommerce, trippy, moradgym];
+  const Images = [audio, adicommerce, trippy, gym];
   const settings = {
     dots: true,
     infinite: true,
