@@ -4,7 +4,6 @@ import "./Services.css";
 import audio from "../../assests/audio.png";
 import trippy from "../../assests/trippy.png";
 import adicommerce from "../../assests/adicommerce.png";
-import moradgym from "../../assests/moradgym.png";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
